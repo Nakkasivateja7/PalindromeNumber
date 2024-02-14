@@ -5,7 +5,7 @@ class PalindromeNumber {
       Scanner Obj = new Scanner(System.in);   
       System.out.println("Enter the number of strings/numbers to check if they are palindromes");  
       int n = Obj.nextInt();
-      Obj.nextLine(); // consume newline not consumed by nextInt()
+      Obj.nextLine(); 
       String original[] = new String[n];
       for(int i=0;i<n;i++){
          System.out.println("Enter string/number " + (i+1) + ":");
